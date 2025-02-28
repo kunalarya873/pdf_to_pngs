@@ -14,7 +14,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["OUTPUT_FOLDER"] = OUTPUT_FOLDER
 
 # Base URL for accessing images
-BASE_URL = "http://127.0.0.1:8000/media/"  # Change if deploying on a server
+BASE_URL = "https://pdf-to-pngs.onrender.com/media/"  # Change if deploying on a server
 
 
 def extract_images(pdf_path, output_folder):
